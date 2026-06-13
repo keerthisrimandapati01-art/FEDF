@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("https://images.unsplash.com/photo-1521587760476-6c12a4b040da")
+      center/cover;
+
+  font-family: "Segoe UI", sans-serif;
+}
+
+.login-container,
+.dashboard,
+.library-page {
+  min-height: 100vh;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 400px;
+
+  background: rgba(
+    255,
+    255,
+    255,
+    0.15
+  );
+
+  backdrop-filter: blur(15px);
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+  text-align: center;
+
+  color: white;
+
+  box-shadow:
+    0 8px 32px rgba(0,0,0,.3);
+}
+
+.large-card {
+  width: 700px;
+}
+
+.primary-btn,
+.danger-btn {
+  border: none;
+
+  padding: 12px 18px;
+
+  margin: 10px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  text-decoration: none;
+
+  color: white;
+
+  display: inline-block;
+}
+
+.primary-btn {
+  background: #2196f3;
+}
+
+.primary-btn:hover {
+  background: #1976d2;
+}
+
+.danger-btn {
+  background: #e53935;
+}
+
+.danger-btn:hover {
+  background: #c62828;
+}
+
+input {
+  width: 100%;
+
+  padding: 12px;
+
+  margin: 15px 0;
+
+  border-radius: 8px;
+
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background: rgba(
+    255,
+    255,
+    255,
+    0.15
+  );
+
+  padding: 15px;
+
+  margin: 10px 0;
+
+  border-radius: 10px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.loading {
+  color: yellow;
+  margin: 10px 0;
+}
