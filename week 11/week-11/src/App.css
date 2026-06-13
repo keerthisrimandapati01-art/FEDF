@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
+    ),
+    url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05")
+      center/cover no-repeat;
+
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  text-align: center;
+}
+
+.app h1 {
+  color: white;
+  margin-bottom: 25px;
+  font-size: 3rem;
+  text-shadow: 2px 2px 10px black;
+}
+
+.booking-card {
+  width: 420px;
+  background: rgba(255,255,255,0.95);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
+
+.booking-card h2 {
+  color: #0077ff;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input,
+select {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #0077ff;
+}
+
+button {
+  padding: 12px;
+  background: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0056cc;
+  transform: translateY(-2px);
+}
+
+.confirmation {
+  margin-top: 20px;
+  background: #e8fff0;
+  border-left: 5px solid #28a745;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+pre {
+  white-space: pre-wrap;
+  font-family: inherit;
+}
