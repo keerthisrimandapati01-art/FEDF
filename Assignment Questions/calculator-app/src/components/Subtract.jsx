@@ -6,4 +6,8 @@ function Subtract({ num1, num2, setResult }) {
   );
 }
 
+<<<<<<< HEAD
 export default Subtract;
+=======
+export default Subtract;
+>>>>>>> 86f0ddfeba3ee55600bed88e1601efd089ec4139
